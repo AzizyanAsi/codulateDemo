@@ -1,0 +1,54 @@
+{
+  "POST-role": "http://localhost:8080/role/create",
+
+  "name": "HR",
+  "description": "something",
+
+  "POST-user": "http://localhost:8080/user/register",
+
+  "firstName": "Asi",
+  "lastName": "Yan",
+  "email": "azizyanasi@gmail.com",
+  "phoneNumber": "+91 (987)6543210",
+  "username": "AbsentOwl",
+  "password": "something",
+  "dateOfBirth": "2000-10-11",
+  "height": "1.63",
+  "weight": 54,
+  "roleId": [
+    1
+  ],
+
+
+
+  "PATCH-user": "http://localhost:8080/user/AbsentOwl",
+
+  "lastName": "Yan",
+
+  "GET-userbyUsername": "http://localhost:8080/user/search?username=AbsentOwl",
+
+  "GET-userbyWeight": "http://localhost:8080/user/searchByWeight?weight=79",
+
+  "Delete-user": "http://localhost:8080/user/1",
+
+  "PUT-role": "http://localhost:8080/role/1",
+  "name": "HR1",
+  "description": "something",
+
+  "GET-roleByName": "http://localhost:8080/role/search?roleName=HR1",
+
+  "POST-preferences": "http://localhost:8080/preferences/create?userId=1",
+
+  "isEmailReceived": "true",
+  "isSmsReceived":" true",
+
+  "GET-preferences": "http://localhost:8080/preferences/search/1",
+
+  "DELETE-preferences": "http://localhost:8080/preferences/1"
+
+}
+
+
+
+
+
